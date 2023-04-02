@@ -38,5 +38,23 @@ function doPost(e) {
 https://github.com/google/clasp
 ```
 
+```
+  code: 403,
+  errors: [
+    {
+      message: 'User has not enabled the Apps Script API. Enable it by visiting https://script.google.com/home/usersettings then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.',
+      domain: 'global',
+      reason: 'forbidden'
+    }
+```
+
+```
+https://script.google.com/home/usersettings
+```
+![image](https://user-images.githubusercontent.com/744973/54870967-a9135780-4d6a-11e9-991c-9f57a508bdf0.gif)
+
+
+
+
 
 :construction: :construction: :construction: :construction: :construction:
