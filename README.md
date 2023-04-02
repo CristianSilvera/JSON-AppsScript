@@ -1,4 +1,4 @@
-# JSON-AppsScript
+# JSON-AppsScript :tada: :tada: :tada:
 
 ##  Google Sheets JSON API ej. 1 p.2.
 
@@ -7,7 +7,9 @@
 ![image](https://user-images.githubusercontent.com/22043269/229360808-1ace23cc-371c-47d0-9da0-1407b80502d8.png)
 
 
-``` function doGet() {
+### App script :rocket:
+``` 
+function doGet() {
 
   const response = [{ status: "Hello QR Code. test: Concatenating user data." }]
 
@@ -26,3 +28,15 @@ function doPost(e) {
   ws.appendRow([bodyJSON.name, bodyJSON.lastname]);
   
 }
+```
+
+
+## Resources:
+### Clasp
+
+``` 
+https://github.com/google/clasp
+```
+
+
+:construction: :construction: :construction: :construction: :construction:
