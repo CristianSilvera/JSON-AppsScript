@@ -1,6 +1,6 @@
 function testGS() {
     
-    const url = "https://script.google.com/macros/s/AKfycbxWVzYY0YzlStqyTkMem0oUL19WXx0hB1em3nqV_4u0acwcxrV5VUXtiP1S4q0uYPMd4w/exec";
+    const url = "https://script.google.com/macros/s/AKfycbzHJ1gouJld92hrYSCoIkq_dwqK87fGmRerLJE1rJgNn7Qu2pjyBmp1EpZQHZ_DarsymA/exec";
     
 
     fetch(url)
@@ -12,7 +12,7 @@ function testGS() {
 
 
 function addGS() {
-    const url = "https://script.google.com/macros/s/AKfycbxWVzYY0YzlStqyTkMem0oUL19WXx0hB1em3nqV_4u0acwcxrV5VUXtiP1S4q0uYPMd4w/exec";
+    const url = "https://script.google.com/macros/s/AKfycbzHJ1gouJld92hrYSCoIkq_dwqK87fGmRerLJE1rJgNn7Qu2pjyBmp1EpZQHZ_DarsymA/exec";
 
     fetch(url, {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
@@ -25,7 +25,7 @@ function addGS() {
         },
         redirect: "follow", // manual, *follow, error
         //referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({name:"Chess", lastname: "Chan"}), // body data type must match "Content-Type" header
+        body: JSON.stringify({"first":"Ana","phone":"620-960-9347","last":"Prado"}), // body data type must match "Content-Type" header
 
     });
 }
