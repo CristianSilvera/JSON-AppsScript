@@ -53,6 +53,14 @@ https://script.google.com/home/usersettings
 ```
 ![image](https://user-images.githubusercontent.com/744973/54870967-a9135780-4d6a-11e9-991c-9f57a508bdf0.gif)
 
+# Adding rows
+
+![image](https://user-images.githubusercontent.com/22043269/229797178-0b4b6b66-7ce8-44d3-9891-6363c1e24b52.png)
+
+## Id sequence
+
+![image](https://user-images.githubusercontent.com/22043269/229799308-8031fa80-ab82-4dd1-a2de-8d1a489f77da.png)
+
 
 
 
